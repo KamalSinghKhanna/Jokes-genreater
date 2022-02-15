@@ -1,0 +1,55 @@
+body{
+    box-sizing: border-box;
+    background-color: rgb(0, 153, 255);
+    display: flex;
+    flex-direction: row;
+    animation: mymove 3s infinite;
+    
+    
+}
+@keyframes mymove {
+    from {background-color: rgb(0, 153, 255);}
+    to {background-color: rgb(225, 0, 255);}
+  }
+
+.container {
+    margin: auto;
+    margin-top: 140px;
+    margin-left: 73px ;
+    vertical-align: middle;
+    background-color: azure;
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    border-radius: 5%;
+
+}
+
+.lightheading{
+    color: rgb(110, 106, 106);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text {
+    color: red;
+    margin-top: 32px;
+    font-size:large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: mymove1 3s infinite;
+}
+@keyframes mymove1 {
+    from {color: rgb(255, 81, 0);}
+    to {color: rgb(60, 255, 0);}
+  }
+
+.btn{
+    margin-top: 25px;
+    background-color: yellow;
+    text-decoration: none;
+    border-radius: 17%;
+}
+
+.fun {
+    border-radius: 5%;
+    height: 600px;
+    width: 300px;
+}
