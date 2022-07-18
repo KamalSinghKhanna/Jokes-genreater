@@ -6,6 +6,7 @@ body{
     display: flex;
     align-items: center;
     Justify-content: center;
+    vertical-align: center;
     animation: mymove 3s infinite;
     
     
@@ -17,8 +18,8 @@ body{
 
 .container {
     background-color: azure;
-    height: 30%;
-    width: 50%;
+    width: 60%;
+    height: auto;
     text-align: center;
     border-radius: 5%;
 
@@ -31,7 +32,7 @@ body{
 .text {
     color: red;
     margin-top: 32px;
-    font-size:large;
+    font-size:10px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     animation: mymove1 3s infinite;
 }
@@ -41,7 +42,7 @@ body{
   }
 
 .btn{
-    margin-top: 25px;
+    margin: 25px;
     background-color: yellow;
     text-decoration: none;
     border-radius: 17%;
